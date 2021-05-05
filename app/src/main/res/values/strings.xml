@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Onboarding</string>
+    <string name="subtitle1">Lorem ipsum bla bla is a free text space between us oh yeah this is my boy</string>
+    <string name="get_started">Get Started</string>
+</resources>
