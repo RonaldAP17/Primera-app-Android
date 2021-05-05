@@ -44,6 +44,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void verPaginaInicio(View view) {
-        startActivity(new Intent(this,pagina_inicio.class));
-    }
+        startActivity(new Intent(this,pagina_inicio.class)); }
 }
