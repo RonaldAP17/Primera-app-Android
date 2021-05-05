@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Estas lineas de codigo son para el onboarding
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_onboarding);
 
         viewPager = findViewById(R.id.viewPager);
 
