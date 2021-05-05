@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <font-family xmlns:app="http://schemas.android.com/apk/res-auto"
-        app:fontProviderAuthority=""
+    xmlns:tools="http://schemas.android.com/tools"
+    app:fontProviderAuthority=""
         app:fontProviderPackage=""
         app:fontProviderQuery="hammersmith_one"
-        app:fontProviderCerts="@array/_certs">
+        app:fontProviderCerts="@array/_certs"
+    tools:ignore="FontValidationError,MissingDefaultResource">
 </font-family>
