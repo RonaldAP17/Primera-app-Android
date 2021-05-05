@@ -5,6 +5,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 
+import com.example.onboarding.Adapter.Adapter_pagina_inicio_walkthrough;
 import com.example.onboarding.Adapter.Adapter_walkthrough;
 
 import me.relex.circleindicator.CircleIndicator;
@@ -12,7 +13,7 @@ import me.relex.circleindicator.CircleIndicator;
 public class pagina_inicio extends AppCompatActivity {
 
     public ViewPager viewPager;
-    Adapter_walkthrough adapter_walkthrough;
+    Adapter_pagina_inicio_walkthrough adapter_pagina_inicio_walkthrough;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,13 +24,13 @@ public class pagina_inicio extends AppCompatActivity {
         viewPager = findViewById(R.id.viewPager);
 
         CircleIndicator indicator = findViewById(R.id.indicator);
-        adapter_walkthrough = new Adapter_walkthrough(getSupportFragmentManager());
+        adapter_pagina_inicio_walkthrough = new Adapter_pagina_inicio_walkthrough(getSupportFragmentManager());
 
-        viewPager.setAdapter(adapter_walkthrough);
+        viewPager.setAdapter(adapter_pagina_inicio_walkthrough);
 
         indicator.setViewPager(viewPager);
 
-        adapter_walkthrough.registerDataSetObserver(indicator.getDataSetObserver());
+        adapter_pagina_inicio_walkthrough.registerDataSetObserver(indicator.getDataSetObserver());
 
     }
 }
