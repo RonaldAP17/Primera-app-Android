@@ -1,4 +1,4 @@
-package com.example.onboarding.fragment;
+package com.example.onboarding.fragments_slider;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

@@ -1,4 +1,4 @@
-package com.example.onboarding.fragment;
+package com.example.onboarding.fragments_slider;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.onboarding.R;
 
-public class Fragment_pagina_inicio_walkthroughtwo extends Fragment {
+public class Fragment_walkthroughone extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -20,6 +20,6 @@ public class Fragment_pagina_inicio_walkthroughtwo extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_pagina_inicio_walkthroughtwo, container, false);
+        return inflater.inflate(R.layout.fragment_walkthroughone, container, false);
     }
 }

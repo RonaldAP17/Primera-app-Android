@@ -5,12 +5,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
-import com.example.onboarding.fragment.Fragment_pagina_inicio_walkthroughone;
-import com.example.onboarding.fragment.Fragment_pagina_inicio_walkthroughthree;
-import com.example.onboarding.fragment.Fragment_pagina_inicio_walkthroughtwo;
-import com.example.onboarding.fragment.Fragment_walkthroughone;
-import com.example.onboarding.fragment.Fragment_walkthroughthree;
-import com.example.onboarding.fragment.Fragment_walkthroughtwo;
+import com.example.onboarding.fragments_slider.Fragment_pagina_inicio_walkthroughone;
+import com.example.onboarding.fragments_slider.Fragment_pagina_inicio_walkthroughthree;
+import com.example.onboarding.fragments_slider.Fragment_pagina_inicio_walkthroughtwo;
 
 public class Adapter_pagina_inicio_walkthrough extends FragmentStatePagerAdapter {
 
