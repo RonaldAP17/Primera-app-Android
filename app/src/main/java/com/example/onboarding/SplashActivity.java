@@ -23,11 +23,8 @@ public class SplashActivity extends AppCompatActivity {
         } ,1000);
     }
 
-    private void mostrarLogo() {
-
-    }
-
     private void mostrarMain() {
         startActivity(new Intent(this,SplashActivity2.class));
+        finish();
     }
 }
