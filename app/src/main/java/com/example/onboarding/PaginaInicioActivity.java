@@ -3,15 +3,19 @@ package com.example.onboarding;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
 
 import com.example.onboarding.Adapter.Adapter_pagina_inicio_walkthrough;
 import com.example.onboarding.Adapter.Adapter_walkthrough;
 
 import me.relex.circleindicator.CircleIndicator;
 
-public class pagina_inicio extends AppCompatActivity {
+public class PaginaInicioActivity extends AppCompatActivity {
 
+    ImageButton mImgBtnProcesadores, mImgBtnTarjetas, mImgBtnMonitores, mImgBtnAudifonos;
     public ViewPager viewPager;
     Adapter_pagina_inicio_walkthrough adapter_pagina_inicio_walkthrough;
 
@@ -20,6 +24,10 @@ public class pagina_inicio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pagina_inicio);
 
+        mImgBtnProcesadores = findViewById(R.id.imgbtnProcesadores);
+        mImgBtnTarjetas = findViewById(R.id.imgbtnTarjetas);
+        mImgBtnMonitores = findViewById(R.id.imgbtnMonitores);
+        mImgBtnAudifonos = findViewById(R.id.imgbtnAudifonos);
 
         viewPager = findViewById(R.id.viewPager);
 
@@ -32,5 +40,23 @@ public class pagina_inicio extends AppCompatActivity {
 
         adapter_pagina_inicio_walkthrough.registerDataSetObserver(indicator.getDataSetObserver());
 
+        Intent intent = new Intent(this, ProcesadoresActivity.class);
+
+    }
+
+    public void verPaginaProcesador(View view) {
+        startActivity(new Intent(this, ProcesadoresActivity.class));
+    }
+
+    public void verPaginaTarjeta(View view) {
+        startActivity(new Intent(this, TarjetasActivity.class));
+    }
+
+    public void verPaginaMonitor(View view) {
+        startActivity(new Intent(this, MonitoresActivity.class));
+    }
+
+    public void verPaginaAudifono(View view) {
+        startActivity(new Intent(this, AudifonosActivity.class));
     }
 }

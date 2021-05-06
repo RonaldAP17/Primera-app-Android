@@ -39,10 +39,10 @@ public class MainActivity extends AppCompatActivity {
         adapter_walkthrough.registerDataSetObserver(indicator.getDataSetObserver());
 
 
-        Intent intent = new Intent(this,pagina_inicio.class);
+        Intent intent = new Intent(this, PaginaInicioActivity.class);
 
     }
 
     public void verPaginaInicio(View view) {
-        startActivity(new Intent(this,pagina_inicio.class)); }
+        startActivity(new Intent(this, PaginaInicioActivity.class)); }
 }

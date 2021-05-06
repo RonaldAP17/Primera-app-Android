@@ -9,7 +9,8 @@
     android:orientation="vertical">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imgbtnProcesadores"
+        android:onClick="verPaginaProcesador"
         android:layout_width="179dp"
         android:layout_height="174dp"
         android:background="@drawable/buttons_shape"
@@ -22,43 +23,46 @@
         app:layout_constraintVertical_bias="0.461" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imgbtnMonitores"
         android:layout_width="179dp"
         android:layout_height="174dp"
         android:background="@drawable/buttons_shape"
+        android:onClick="verPaginaMonitor"
         android:src="@drawable/ic_perifericos_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.872" />
+        app:layout_constraintVertical_bias="0.857" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imgbtnTarjetas"
         android:layout_width="179dp"
         android:layout_height="174dp"
         android:background="@drawable/buttons_shape"
+        android:onClick="verPaginaTarjeta"
         android:src="@drawable/ic_novedoso_2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.924"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.464" />
+        app:layout_constraintVertical_bias="0.461" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/imgbtnAudifonos"
         android:layout_width="179dp"
         android:layout_height="174dp"
         android:background="@drawable/buttons_shape"
+        android:onClick="verPaginaAudifono"
         android:src="@drawable/ic_perifericos_2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.924"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.872" />
+        app:layout_constraintVertical_bias="0.857" />
 
     <TextView
         android:id="@+id/textView"
