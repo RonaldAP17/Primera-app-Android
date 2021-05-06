@@ -6,21 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.widget.ImageView;
 
-public class SplashActivity extends AppCompatActivity {
+public class SplashActivity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
-
-
-
+        setContentView(R.layout.activity_splash2);
         Handler handler = new Handler(Looper.getMainLooper());
         handler.postDelayed(() ->{
             mostrarMain();
-        } ,1000);
+        } ,2000);
     }
 
     private void mostrarLogo() {
@@ -28,6 +24,7 @@ public class SplashActivity extends AppCompatActivity {
     }
 
     private void mostrarMain() {
-        startActivity(new Intent(this,SplashActivity2.class));
+        startActivity(new Intent(this,MainActivity.class));
+        finish();
     }
 }

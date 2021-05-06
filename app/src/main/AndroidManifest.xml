@@ -9,16 +9,7 @@
         android:roundIcon="@mipmap/ic_logo_ap_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Onboarding">
-        <activity android:name=".AudifonosActivity"
-            android:theme="@style/Theme.PaginaInicial"/>
-        <activity android:name=".MonitoresActivity"
-            android:theme="@style/Theme.PaginaInicial"/>
-        <activity android:name=".TarjetasActivity"
-            android:theme="@style/Theme.PaginaInicial"/>
-        <activity android:name=".ProcesadoresActivity"
-            android:theme="@style/Theme.PaginaInicial"/>
-        <activity
-            android:name=".SplashActivity"
+        <activity android:name=".SplashActivity"
             android:theme="@style/Theme.Onboarding.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,9 +18,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PaginaInicioActivity"
+            android:name=".pagina_inicio"
             android:theme="@style/Theme.PaginaInicial" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
