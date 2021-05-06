@@ -4,18 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFCE21"
+    android:background="@drawable/screen_splash"
     tools:context=".SplashActivity">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="271dp"
-        android:layout_height="263dp"
+        android:id="@+id/imgLogo"
+        android:layout_width="202dp"
+        android:layout_height="186dp"
+
         android:contentDescription="@string/logo"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.459"
-        app:srcCompat="@drawable/icono_splash" />
+        app:srcCompat="@drawable/logo_icono" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/telex"
+        android:text="@string/onboaring"
+        android:textColor="@color/background_app"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/imgLogo"
+        app:layout_constraintStart_toStartOf="@+id/imgLogo"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

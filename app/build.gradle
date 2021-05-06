@@ -39,4 +39,5 @@ dependencies {
 
     implementation 'me.relex:circleindicator:1.2.1@aar'
     implementation 'com.google.android.material:material:1.0.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.23'
 }
