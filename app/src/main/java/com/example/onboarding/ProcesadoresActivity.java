@@ -47,13 +47,13 @@ public class ProcesadoresActivity extends AppCompatActivity implements View.OnCl
 
     private void mostrarBoton1() {
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.llContenerdoProcesadores, new ProcesadorR5Fragment())
+                .replace(R.id.llContenerdoProcesadores, new ProcesadorI11Fragment())
                 .commit();
     }
 
     private void mostrarBoton2() {
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.llContenerdoProcesadores, new ProcesadorI11Fragment())
+                .replace(R.id.llContenerdoProcesadores, new ProcesadorR5Fragment())
                 .commit();
     }
 

@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/textViewAudifono"
         android:layout_width="251dp"
         android:layout_height="47dp"
         android:layout_marginTop="16dp"
@@ -56,8 +56,8 @@
         android:contentDescription="@string/imagen_de_audifono_skullcandy"
         android:scaleType="centerCrop"
         android:src="@drawable/imagen_audifonos_skullcandy"
-        app:layout_constraintEnd_toEndOf="@+id/textView14"
-        app:layout_constraintHorizontal_bias="0.571"
-        app:layout_constraintStart_toStartOf="@+id/textView14"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        app:layout_constraintEnd_toEndOf="@+id/textViewAudifono"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="@+id/textViewAudifono"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAudifono" />
 </androidx.constraintlayout.widget.ConstraintLayout>

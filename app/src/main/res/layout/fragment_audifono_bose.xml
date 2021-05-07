@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/textViewAudifono"
         android:layout_width="251dp"
         android:layout_height="47dp"
         android:layout_marginTop="16dp"
@@ -58,7 +58,7 @@
         android:contentDescription="@string/imagen_de_audifono_bose"
         android:scaleType="centerCrop"
         android:src="@drawable/imagen_audifonos_bose"
-        app:layout_constraintEnd_toEndOf="@+id/textView13"
-        app:layout_constraintStart_toStartOf="@+id/textView13"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+        app:layout_constraintEnd_toEndOf="@+id/textViewAudifono"
+        app:layout_constraintStart_toStartOf="@+id/textViewAudifono"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAudifono" />
 </androidx.constraintlayout.widget.ConstraintLayout>
