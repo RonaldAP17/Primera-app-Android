@@ -56,15 +56,16 @@
         android:background="@drawable/buttons_shape"
         android:contentDescription="@string/imagen_de_tarjetas_graficas"
         android:src="@drawable/foto_logo_apple"
-        app:layout_constraintBottom_toBottomOf="@+id/imgbtnProcesadores"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtnXiaomi"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toEndOf="@+id/imgbtnProcesadores"
-        app:layout_constraintTop_toTopOf="@+id/imgbtnProcesadores"
+        app:layout_constraintStart_toEndOf="@+id/imgbtnXiaomi"
+        app:layout_constraintTop_toTopOf="@+id/imgbtnXiaomi"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
-        android:id="@+id/imgbtnProcesadores"
+        android:id="@+id/imgbtnXiaomi"
+        android:onClick="verPaginaXiaomi"
         android:layout_width="179dp"
         android:layout_height="174dp"
         android:layout_marginTop="12dp"
@@ -90,7 +91,7 @@
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtnProcesadores" />
+        app:layout_constraintTop_toBottomOf="@+id/imgbtnXiaomi" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPager"

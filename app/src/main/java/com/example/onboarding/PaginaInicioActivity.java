@@ -43,7 +43,7 @@ public class PaginaInicioActivity extends AppCompatActivity {
 
         adapter_pagina_inicio_walkthrough.registerDataSetObserver(indicator.getDataSetObserver());
 
-        Intent intent = new Intent(this, ProcesadoresActivity.class);
+        Intent intent1 = new Intent(this, ProcesadoresActivity.class);
 
     }
 

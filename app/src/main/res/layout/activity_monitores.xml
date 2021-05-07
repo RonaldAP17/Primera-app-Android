@@ -60,7 +60,7 @@
                     android:fontFamily="@font/telex"
                     android:text="Gigabyte M27Q"
                     android:textAlignment="center"
-                    android:textSize="20sp"
+                    android:textSize="21sp"
                     android:textStyle="bold" />
 
                 <RadioButton
@@ -72,7 +72,7 @@
                     android:fontFamily="@font/telex"
                     android:text="Aorus AD27QD"
                     android:textAlignment="center"
-                    android:textSize="20sp"
+                    android:textSize="21sp"
                     android:textStyle="bold" />
 
                 <RadioButton
@@ -83,7 +83,7 @@
                     android:fontFamily="@font/telex"
                     android:text="MSI Optix G241"
                     android:textAlignment="center"
-                    android:textSize="20sp"
+                    android:textSize="21sp"
                     android:textStyle="bold" />
             </RadioGroup>
 

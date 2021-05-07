@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_logo_ap_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Onboarding">
-        <activity android:name=".CelularesActivity"
+        <activity android:name=".XiaomiActivity"
             android:theme="@style/Theme.PaginaInicial"/>
+        <activity
+            android:name=".CelularesActivity"
+            android:theme="@style/Theme.PaginaInicial" />
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Theme.Splash">
@@ -41,6 +44,7 @@
         <activity
             android:name=".TarjetasActivity"
             android:theme="@style/Theme.PaginaInicial" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
