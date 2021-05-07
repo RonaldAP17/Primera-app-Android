@@ -2,11 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/relativeLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_app"
-    android:orientation="vertical">
+    tools:context=".CelularesActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -15,7 +13,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="28dp"
         android:fontFamily="@font/telex"
-        android:text="@string/componentes"
+        android:text="@string/marcas"
         android:textColor="#151515"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -29,7 +27,6 @@
         android:layout_marginTop="12dp"
         android:background="@drawable/buttons_shape"
         android:contentDescription="@string/imagen_de_monitores"
-        android:onClick="verPaginaMonitor"
         android:src="@drawable/ic_perifericos_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,40 +39,41 @@
         android:id="@+id/imgbtnAudifonos"
         android:layout_width="179dp"
         android:layout_height="174dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/buttons_shape"
-        android:contentDescription="@string/imagen_de_audifonos"
-        android:onClick="verPaginaAudifono"
         android:src="@drawable/ic_perifericos_2"
         app:layout_constraintBottom_toBottomOf="@+id/imgbtnMonitores"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imgbtnMonitores"
         app:layout_constraintTop_toTopOf="@+id/imgbtnMonitores"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
-        android:id="@+id/imgbtnTarjetas"
+        android:id="@+id/imgbtnApple"
         android:layout_width="179dp"
         android:layout_height="174dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/buttons_shape"
-        android:contentDescription="@string/imagen_de_tarjetas_graficas"
-        android:onClick="verPaginaTarjeta"
+        android:onClick="verPaginaApple"
         android:src="@drawable/ic_novedoso_2"
-        app:layout_constraintBottom_toBottomOf="@+id/imgbtnProcesadores"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtnXiaomi"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.686"
-        app:layout_constraintStart_toEndOf="@+id/imgbtnProcesadores"
-        app:layout_constraintTop_toTopOf="@+id/imgbtnProcesadores"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imgbtnXiaomi"
+        app:layout_constraintTop_toTopOf="@+id/imgbtnXiaomi"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
-        android:id="@+id/imgbtnProcesadores"
+        android:id="@+id/imgbtnXiaomi"
         android:layout_width="179dp"
         android:layout_height="174dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/buttons_shape"
         android:contentDescription="@string/imagen_de_procesadores"
-        android:onClick="verPaginaProcesador"
+        android:onClick="verPaginaXiaomi"
         android:src="@drawable/ic_novedoso_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -96,7 +94,7 @@
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtnProcesadores" />
+        app:layout_constraintTop_toBottomOf="@+id/imgbtnXiaomi" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPager"
@@ -123,19 +121,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.254" />
-
-    <Button
-        android:id="@+id/btnCelulares"
-        android:layout_width="182dp"
-        android:layout_height="56dp"
-        android:backgroundTint="@color/boton_amarillo"
-        android:onClick="verPaginaCelulares"
-        android:text="Celulares"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.994" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,6 +6,7 @@ import androidx.viewpager.widget.ViewPager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.example.onboarding.Adapter.Adapter_pagina_inicio_walkthrough;
@@ -16,6 +17,7 @@ import me.relex.circleindicator.CircleIndicator;
 public class PaginaInicioActivity extends AppCompatActivity {
 
     ImageButton mImgBtnProcesadores, mImgBtnTarjetas, mImgBtnMonitores, mImgBtnAudifonos;
+    Button mBtnCelulares;
     public ViewPager viewPager;
     Adapter_pagina_inicio_walkthrough adapter_pagina_inicio_walkthrough;
 
@@ -28,6 +30,7 @@ public class PaginaInicioActivity extends AppCompatActivity {
         mImgBtnTarjetas = findViewById(R.id.imgbtnTarjetas);
         mImgBtnMonitores = findViewById(R.id.imgbtnMonitores);
         mImgBtnAudifonos = findViewById(R.id.imgbtnAudifonos);
+        mBtnCelulares = findViewById(R.id.btnCelulares);
 
         viewPager = findViewById(R.id.viewPager);
 
@@ -58,5 +61,9 @@ public class PaginaInicioActivity extends AppCompatActivity {
 
     public void verPaginaAudifono(View view) {
         startActivity(new Intent(this, AudifonosActivity.class));
+    }
+
+    public void verPaginaCelulares(View view) {
+        startActivity(new Intent(this, CelularesActivity.class));
     }
 }
