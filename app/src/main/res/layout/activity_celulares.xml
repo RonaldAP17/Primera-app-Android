@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CelularesActivity">
+    tools:context=".CelularesActivity"
+    android:background="@color/background_app">
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -43,7 +44,7 @@
         android:src="@drawable/ic_perifericos_2"
         app:layout_constraintBottom_toBottomOf="@+id/imgbtnMonitores"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toEndOf="@+id/imgbtnMonitores"
         app:layout_constraintTop_toTopOf="@+id/imgbtnMonitores"
         app:layout_constraintVertical_bias="0.0" />
@@ -54,10 +55,10 @@
         android:layout_height="174dp"
         android:background="@drawable/buttons_shape"
         android:contentDescription="@string/imagen_de_tarjetas_graficas"
-        android:src="@drawable/ic_novedoso_2"
+        android:src="@drawable/foto_logo_apple"
         app:layout_constraintBottom_toBottomOf="@+id/imgbtnProcesadores"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toEndOf="@+id/imgbtnProcesadores"
         app:layout_constraintTop_toTopOf="@+id/imgbtnProcesadores"
         app:layout_constraintVertical_bias="0.0" />
@@ -69,7 +70,7 @@
         android:layout_marginTop="12dp"
         android:background="@drawable/buttons_shape"
         android:contentDescription="@string/imagen_de_procesadores"
-        android:src="@drawable/ic_novedoso_1"
+        android:src="@drawable/foto_logo_xiaomi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.086"

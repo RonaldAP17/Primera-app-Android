@@ -34,7 +34,9 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="imgen_del_monitor">imgen del monitor</string>
-    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_eiusmod_tempor_incidunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquid_ex_ea_commodi_consequat">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</string>
+    <string name="descripcion_bose">Ahora, el mundo será su sala de conferencias. Los audífonos con cancelación de ruido Bose 700 UC lo equipan para una mejor colaboración en el lugar de trabajo y otros entornos: cubículos, oficinas abiertas, oficinas y muchos sitios más.</string>
+    <string name="descripcion_sony">Descubre cómo los audífonos WH-1000XM4 combinan nuestro noise cancelling más avanzado con una calidad de sonido excepcional y una serie de funciones inteligentes para disfrutar de una experiencia de audio inigualable.</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_eiusmod_tempor_incidunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquid_ex_ea_commodi_consequat">lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_eiusmod_tempor_incidunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquid_ex_ea_commodi_consequat</string>
     <string name="s_280_00">S/ 280.00</string>
     <string name="imagen_de_monitor_msi">imagen de monitor msi</string>
     <string name="s_580_00">S/ 580.00</string>

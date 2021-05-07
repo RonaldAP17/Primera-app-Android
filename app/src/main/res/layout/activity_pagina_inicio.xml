@@ -48,24 +48,9 @@
         android:src="@drawable/ic_perifericos_2"
         app:layout_constraintBottom_toBottomOf="@+id/imgbtnMonitores"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toEndOf="@+id/imgbtnMonitores"
         app:layout_constraintTop_toTopOf="@+id/imgbtnMonitores"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <ImageButton
-        android:id="@+id/imgbtnTarjetas"
-        android:layout_width="179dp"
-        android:layout_height="174dp"
-        android:background="@drawable/buttons_shape"
-        android:contentDescription="@string/imagen_de_tarjetas_graficas"
-        android:onClick="verPaginaTarjeta"
-        android:src="@drawable/ic_novedoso_2"
-        app:layout_constraintBottom_toBottomOf="@+id/imgbtnProcesadores"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.686"
-        app:layout_constraintStart_toEndOf="@+id/imgbtnProcesadores"
-        app:layout_constraintTop_toTopOf="@+id/imgbtnProcesadores"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
@@ -79,9 +64,24 @@
         android:src="@drawable/ic_novedoso_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintHorizontal_bias="0.087"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/imgbtnTarjetas"
+        android:layout_width="179dp"
+        android:layout_height="174dp"
+        android:background="@drawable/buttons_shape"
+        android:contentDescription="@string/imagen_de_tarjetas_graficas"
+        android:onClick="verPaginaTarjeta"
+        android:src="@drawable/ic_novedoso_2"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtnProcesadores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toEndOf="@+id/imgbtnProcesadores"
+        app:layout_constraintTop_toTopOf="@+id/imgbtnProcesadores"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
