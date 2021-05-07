@@ -51,4 +51,15 @@
     <string name="imagen_de_audifono_sony">imagen de audifono sony</string>
     <string name="s_530_00">S/ 530.00</string>
     <string name="imagen_de_audifono_bose">imagen de audifono bose</string>
+    <string name="nvidia_gtx_1660">Nvidia GTX 1660</string>
+    <string name="imagen_de_nvidia_gtx_1660">imagen de nvidia gtx 1660</string>
+    <string name="nvidia_rtx_3080">Nvidia RTX 3080</string>
+    <string name="imagen_de_nvidia_rtx_3080">imagen de nvidia rtx 3080</string>
+    <string name="radeon_rx_6700_xt">Radeon RX 6700 XT</string>
+    <string name="imagen_de_radeon_rx_6700_xt">imagen de radeon rx 6700 xt</string>
+    <string name="ryzen5_5600x">Ryzen5 5600X</string>
+    <string name="imagen_de_un_procesador_ryzen">imagen de un procesador ryzen</string>
+    <string name="intel_i5_11600k">Intel i5 11600K</string>
+    <string name="imagen_de_un_procesador_intel">imagen de un procesador intel</string>
+    <string name="s_400_00">S/ 400.00</string>
 </resources>
