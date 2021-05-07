@@ -4,27 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".XiaomiActivity">
+    tools:context=".XiaomiActivity"
+    android:background="@color/background_app">
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical" >
 
             <ImageView
                 android:id="@+id/imageViewXiaomi"
                 android:layout_width="match_parent"
                 android:layout_height="212dp"
                 android:background="@color/background_app"
-                android:contentDescription="@string/xiaomi"
+                android:contentDescription="@string/portada_de_audifonos"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/imagen_fondo_xiaomi" />
 
             <TextView
@@ -35,14 +32,13 @@
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/telex"
                 android:gravity="center"
-                android:text="@string/productos"
+                android:text="Modelos"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="35sp"
                 android:textStyle="bold" />
 
             <RadioGroup
-                android:id="@+id/radioGroup"
                 android:layout_width="381dp"
                 android:layout_height="318dp"
                 android:layout_marginStart="15dp"
@@ -52,32 +48,46 @@
 
                 <RadioButton
                     android:id="@+id/btnCXBoton1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/xiaomi_mi_11_ultra" />
+                    android:layout_width="379dp"
+                    android:layout_height="91dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/buttons_shape"
+                    android:fontFamily="@font/telex"
+                    android:text="Xiaomi Mi 11"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
 
                 <RadioButton
                     android:id="@+id/btnCXBoton2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/redmi_note_10_pro" />
+                    android:layout_width="379dp"
+                    android:layout_height="91dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/buttons_shape"
+                    android:fontFamily="@font/telex"
+                    android:text="Redmi Note 10"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
 
                 <RadioButton
                     android:id="@+id/btnCXBoton3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/xiaomi_mi_9t" />
+                    android:layout_width="379dp"
+                    android:layout_height="91dp"
+                    android:background="@drawable/buttons_shape"
+                    android:fontFamily="@font/telex"
+                    android:text="Xiaomi Mi 9t"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
 
             </RadioGroup>
 
             <LinearLayout
-                android:id="@+id/llContenerdorCelularXiomi"
+                android:id="@+id/llContenedorCelularXiaomi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="16dp"
                 android:orientation="vertical" />
-
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

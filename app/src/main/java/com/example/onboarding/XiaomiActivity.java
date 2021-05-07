@@ -43,19 +43,19 @@ public class XiaomiActivity extends AppCompatActivity implements View.OnClickLis
 
     private void mostrarBoton1() {
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.llContenerdorCelularXiomi, new CelularXiaomiMi11Fragment())
+                .replace(R.id.llContenedorCelularXiaomi, new CelularXiaomiMi11Fragment())
                 .commit();
     }
 
     private void mostrarBoton2() {
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.llContenerdorCelularXiomi, new CelularXiaomiRedmiFragment())
+                .replace(R.id.llContenedorCelularXiaomi, new CelularXiaomiRedmiFragment())
                 .commit();
     }
 
     private void mostrarBoton3() {
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.llContenerdorCelularXiomi, new CelularXiaomiMi9Fragment())
+                .replace(R.id.llContenedorCelularXiaomi, new CelularXiaomiMi9Fragment())
                 .commit();
     }
 }
