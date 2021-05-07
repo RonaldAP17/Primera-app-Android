@@ -52,10 +52,11 @@
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="258dp"
-        android:layout_height="226dp"
+        android:layout_width="288dp"
+        android:layout_height="192dp"
         android:layout_marginTop="16dp"
         android:contentDescription="@string/imagen_de_nvidia_rtx_3080"
+        android:scaleType="centerCrop"
         android:src="@drawable/nvidia_rtx_3080"
         app:layout_constraintEnd_toEndOf="@+id/textView26"
         app:layout_constraintStart_toStartOf="@+id/textView26"
