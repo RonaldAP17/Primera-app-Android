@@ -64,4 +64,5 @@
     <string name="intel_i5_11600k">Intel i5 11600K</string>
     <string name="imagen_de_un_procesador_intel">imagen de un procesador intel</string>
     <string name="s_400_00">S/ 400.00</string>
+    <string name="ryzen_9_5950x">Ryzen 9 5950X</string>
 </resources>

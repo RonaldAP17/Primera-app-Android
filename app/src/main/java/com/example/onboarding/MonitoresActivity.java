@@ -3,6 +3,8 @@ package com.example.onboarding;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.widget.RadioButton;
 
@@ -56,5 +58,12 @@ public class MonitoresActivity extends AppCompatActivity implements View.OnClick
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.llContenerdorMonitor, new MonitorMSIFragment())
                 .commit();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_inicio_de_pagina, menu);
+        return true;
     }
 }

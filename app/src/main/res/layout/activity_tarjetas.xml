@@ -26,31 +26,53 @@
 
             <TextView
                 android:id="@+id/textView5"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="70dp"
-                android:background="@color/boton_amarillo"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/background_app"
                 android:fontFamily="@font/telex"
                 android:gravity="center"
                 android:text="@string/tarjetas_graficas"
                 android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="30sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/cardview_default_elevation"
-                android:layout_marginTop="12dp"
-                android:background="@drawable/buttons_shape"
-                android:fontFamily="@font/telex"
-                android:padding="30dp"
-                android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_integer_vitae_massa_lobortis_nulla_fringilla_commodo_in_dui_arcu_porttitor_a_commodo_condimentum_hendrerit_quis_diam_aliquam_vestibulum_elit_congue"
-                android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="15dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/btnTGBoton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nvidia_gtx_1660" />
+
+                <RadioButton
+                    android:id="@+id/btnTGBoton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radeon_rx_6700_xt" />
+
+                <RadioButton
+                    android:id="@+id/btnTGBoton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nvidia_rtx_3080" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/llContenedorTarjetas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical"></LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 
