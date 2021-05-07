@@ -21,7 +21,8 @@
         app:layout_constraintTop_toBottomOf="@+id/viewPager" />
 
     <ImageButton
-        android:id="@+id/imgbtnMonitores"
+        android:id="@+id/imgbtnNotion"
+        android:onClick="verPaginaNotion"
         android:layout_width="179dp"
         android:layout_height="174dp"
         android:layout_marginTop="12dp"
@@ -36,21 +37,23 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
-        android:id="@+id/imgbtnAudifonos"
+        android:id="@+id/imgbtnToDo"
+        android:onClick="verPaginaToDo"
         android:layout_width="179dp"
         android:layout_height="174dp"
         android:background="@drawable/buttons_shape"
         android:contentDescription="@string/imagen_de_audifonos"
         android:src="@drawable/ic_perifericos_2"
-        app:layout_constraintBottom_toBottomOf="@+id/imgbtnMonitores"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtnNotion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toEndOf="@+id/imgbtnMonitores"
-        app:layout_constraintTop_toTopOf="@+id/imgbtnMonitores"
+        app:layout_constraintStart_toEndOf="@+id/imgbtnNotion"
+        app:layout_constraintTop_toTopOf="@+id/imgbtnNotion"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
-        android:id="@+id/imgbtnTarjetas"
+        android:id="@+id/imgbtnApple"
+        android:onClick="verPaginaApple"
         android:layout_width="179dp"
         android:layout_height="174dp"
         android:background="@drawable/buttons_shape"

@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_logo_ap_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Onboarding">
-        <activity android:name=".XiaomiActivity"
-            android:theme="@style/Theme.PaginaInicial"/>
+        <activity android:name=".ToDoActivity"></activity>
+        <activity android:name=".NotionActivity" />
+        <activity android:name=".AppleActivity" />
+        <activity
+            android:name=".XiaomiActivity"
+            android:theme="@style/Theme.PaginaInicial" />
         <activity
             android:name=".CelularesActivity"
             android:theme="@style/Theme.PaginaInicial" />
