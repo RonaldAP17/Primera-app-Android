@@ -17,11 +17,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SplashActivity2"/>
+        <activity android:name=".SplashActivity2"
+            android:theme="@style/Theme.Onboarding.NoActionBar"/>
         <activity
             android:name=".PaginaInicioActivity"
             android:theme="@style/Theme.PaginaInicial" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.Onboarding.NoActionBar"/>
         <activity android:name=".AudifonosActivity"/>
         <activity android:name=".MonitoresActivity"/>
         <activity android:name=".ProcesadoresActivity"/>
