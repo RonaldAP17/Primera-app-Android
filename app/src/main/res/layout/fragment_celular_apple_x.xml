@@ -8,7 +8,6 @@
     tools:context=".fragment_celular_apple.CelularAppleXFragment">
 
     <View
-        android:id="@+id/view2"
         android:layout_width="350dp"
         android:layout_height="600dp"
         android:background="@drawable/buttons_shape"
@@ -18,21 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView19"
-        android:layout_width="252dp"
-        android:layout_height="250dp"
-        android:layout_marginTop="16dp"
-        android:fontFamily="@font/telex"
-        android:padding="8dp"
-        android:text="@string/descripcion_sony"
-        android:textAlignment="textStart"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView10"
-        app:layout_constraintStart_toStartOf="@+id/imageView10"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
-
-    <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/textView3"
         android:layout_width="210dp"
         android:layout_height="47dp"
         android:layout_marginTop="16dp"
@@ -48,14 +33,29 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="276dp"
-        android:layout_height="175dp"
+        android:id="@+id/imageViewApple"
+        android:layout_width="290dp"
+        android:layout_height="180dp"
         android:layout_marginTop="16dp"
         android:contentDescription="@string/imagen_de_iphone"
         android:scaleType="centerCrop"
         android:src="@drawable/celulares_iphone_x"
-        app:layout_constraintEnd_toEndOf="@+id/textView16"
-        app:layout_constraintStart_toStartOf="@+id/textView16"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textViewIphone8"
+        android:layout_width="252dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="33dp"
+        android:fontFamily="@font/telex"
+        android:padding="8dp"
+        android:text="@string/descripcion_sony"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewApple"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageViewApple"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewApple" />
 </androidx.constraintlayout.widget.ConstraintLayout>

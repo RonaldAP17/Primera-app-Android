@@ -16,58 +16,77 @@
             android:orientation="vertical" >
 
             <ImageView
-                android:id="@+id/imageView11"
+                android:id="@+id/imageViewApple"
                 android:layout_width="match_parent"
                 android:layout_height="212dp"
-                android:contentDescription="@string/imagen_de_iphone"
+                android:background="@color/background_app"
+                android:contentDescription="@string/portada_de_audifonos"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/portada_de_iphone" />
+                app:srcCompat="@drawable/imagen_fondo_apple" />
 
             <TextView
-                android:id="@+id/tvTitulo2"
-                android:layout_width="156dp"
-                android:layout_height="59dp"
+                android:id="@+id/tvTitulo"
+                android:layout_width="110dp"
+                android:layout_height="67dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/telex"
                 android:gravity="center"
-                android:text="@string/iphone"
+                android:text="Apple"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="35sp"
                 android:textStyle="bold" />
 
             <RadioGroup
-                android:layout_width="393dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_width="381dp"
+                android:layout_height="318dp"
+                android:layout_marginStart="15dp"
                 android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp">
+                android:layout_marginEnd="15dp"
+                android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/btnCIBoton1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/iphone_8_plus" />
+                    android:layout_width="379dp"
+                    android:layout_height="91dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/buttons_shape"
+                    android:fontFamily="@font/telex"
+                    android:text="Iphone 8 Plus"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
 
                 <RadioButton
                     android:id="@+id/btnCIBoton2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/iphone_x" />
+                    android:layout_width="379dp"
+                    android:layout_height="91dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/buttons_shape"
+                    android:fontFamily="@font/telex"
+                    android:text="Iphone X"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
 
                 <RadioButton
                     android:id="@+id/btnCIBoton3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/iphone_12_pro_max" />
+                    android:layout_width="379dp"
+                    android:layout_height="91dp"
+                    android:background="@drawable/buttons_shape"
+                    android:fontFamily="@font/telex"
+                    android:text="Iphone 12 Pro Max"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
             </RadioGroup>
 
             <LinearLayout
                 android:id="@+id/llContenedorCelularApple"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

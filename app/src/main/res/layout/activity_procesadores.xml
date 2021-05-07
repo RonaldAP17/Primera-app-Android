@@ -30,13 +30,13 @@
 
             <TextView
                 android:id="@+id/tvTitulo"
-                android:layout_width="174dp"
+                android:layout_width="224dp"
                 android:layout_height="67dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/telex"
                 android:gravity="center"
-                android:text="Modelos"
+                android:text="Procesadores"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="35sp"

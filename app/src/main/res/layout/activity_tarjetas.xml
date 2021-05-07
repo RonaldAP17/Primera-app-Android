@@ -31,13 +31,13 @@
 
             <TextView
                 android:id="@+id/tvTitulo"
-                android:layout_width="174dp"
+                android:layout_width="270dp"
                 android:layout_height="67dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/telex"
                 android:gravity="center"
-                android:text="@string/modelos"
+                android:text="Tarjetas gráficas"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="35sp"

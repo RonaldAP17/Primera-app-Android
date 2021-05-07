@@ -9,9 +9,12 @@
         android:roundIcon="@mipmap/ic_logo_ap_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Onboarding">
-        <activity android:name=".ToDoActivity"></activity>
-        <activity android:name=".NotionActivity" />
-        <activity android:name=".AppleActivity" />
+        <activity android:name=".ToDoActivity"
+            android:theme="@style/Theme.PaginaInicial"/>
+        <activity android:name=".NotionActivity"
+            android:theme="@style/Theme.PaginaInicial"/>
+        <activity android:name=".AppleActivity"
+            android:theme="@style/Theme.PaginaInicial"/>
         <activity
             android:name=".XiaomiActivity"
             android:theme="@style/Theme.PaginaInicial" />
@@ -20,7 +23,7 @@
             android:theme="@style/Theme.PaginaInicial" />
         <activity
             android:name=".SplashActivity"
-            android:theme="@style/Theme.Splash">
+            android:theme="@style/Theme.PaginaInicial">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,7 +32,7 @@
         </activity>
         <activity
             android:name=".SplashActivity2"
-            android:theme="@style/Theme.Splash" />
+            android:theme="@style/Theme.PaginaInicial" />
         <activity
             android:name=".PaginaInicioActivity"
             android:theme="@style/Theme.PaginaInicial" />
