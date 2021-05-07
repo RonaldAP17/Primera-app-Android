@@ -26,6 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="212dp"
                 android:background="@color/background_app"
+                android:contentDescription="@string/imagen_de_tarjetas_graficas"
                 app:srcCompat="@drawable/imagen_fondo_grafica" />
 
             <TextView
@@ -36,7 +37,7 @@
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/telex"
                 android:gravity="center"
-                android:text="Modelos"
+                android:text="@string/modelos"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="35sp"

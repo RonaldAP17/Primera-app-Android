@@ -75,4 +75,11 @@
     <string name="msi_optix_g241">MSI Optix G241</string>
     <string name="aplicaciones_productivas">Aplicaciones productivas</string>
     <string name="celulares">Celulares</string>
+    <string name="modelos">Modelos</string>
+    <string name="comenzar">Comenzar</string>
+    <string name="iphone_8_plus">Iphone 8 Plus</string>
+    <string name="imagen_de_iphone">imagen de iphone</string>
+    <string name="iphone_12_pro_max">Iphone 12 Pro Max</string>
+    <string name="iphone_x">Iphone X</string>
+    <string name="iphone">Iphone</string>
 </resources>

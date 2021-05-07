@@ -45,7 +45,7 @@
         android:layout_width="351dp"
         android:layout_height="49dp"
         android:backgroundTint="#FFFFFF"
-        android:text="Comenzar"
+        android:text="@string/comenzar"
         android:fontFamily="@font/hammersmith_one"
         android:textStyle="bold"
         android:textColor="@color/black"
