@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Componentes" >
+        <menu >
+            <item android:title="Procesadores" />
+            <item android:title="Tarjetas Gráficas" />
+        </menu>
+    </item>
+    <item android:title="Perifericos" >
+        <menu >
+            <item android:title="Monitores" />
+            <item android:title="Audifonos" />
+        </menu>
+    </item>
+</menu>

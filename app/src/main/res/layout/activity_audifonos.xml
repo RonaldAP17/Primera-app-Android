@@ -7,92 +7,70 @@
     android:background="@color/background_app"
     tools:context=".AudifonosActivity">
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="212dp"
-        android:background="@color/background_app"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/imagen_fondo_audifono" />
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tvTitulo"
-        android:layout_width="184dp"
-        android:layout_height="67dp"
-        android:fontFamily="@font/telex"
-        android:gravity="center"
-        android:text="Audífonos"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="35sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.033" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/tvProducto2"
-        android:layout_width="379dp"
-        android:layout_height="91dp"
-        android:layout_marginTop="106dp"
-        android:background="@drawable/buttons_shape"
-        android:fontFamily="@font/telex"
-        android:gravity="center"
-        android:text="Bose 700Uc                     530$"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tvProducto1"
-        app:layout_constraintVertical_bias="0.0" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="212dp"
+                android:background="@color/background_app"
+                android:contentDescription="@string/portada_de_audifonos"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/imagen_fondo_audifono" />
 
-    <TextView
-        android:id="@+id/tvProducto1"
-        android:layout_width="379dp"
-        android:layout_height="91dp"
-        android:layout_marginTop="104dp"
-        android:background="@drawable/buttons_shape"
-        android:fontFamily="@font/telex"
-        android:gravity="center"
-        android:text="Sony WH-1000XM4      280$"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tvProducto3"
-        app:layout_constraintVertical_bias="0.0" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/boton_amarillo"
+                android:fontFamily="@font/telex"
+                android:gravity="center"
+                android:text="@string/audifonos"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/tvProducto3"
-        android:layout_width="379dp"
-        android:layout_height="91dp"
-        android:layout_marginTop="86dp"
-        android:background="@drawable/buttons_shape"
-        android:fontFamily="@font/telex"
-        android:gravity="center"
-        android:text="Skullcandy Hesh 3          120$"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tvTitulo"
-        app:layout_constraintVertical_bias="0.0" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/btnABoton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:text="@string/skullcandy_hesh_3" />
+
+                <RadioButton
+                    android:id="@+id/btnABoton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="58dp"
+                    android:text="@string/sony_wh1000xm4" />
+
+                <RadioButton
+                    android:id="@+id/btnABoton3"
+                    android:layout_width="117dp"
+                    android:layout_height="58dp"
+                    android:text="@string/bose_700uc" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/llContenedorAudifonos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

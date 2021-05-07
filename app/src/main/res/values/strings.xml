@@ -31,4 +31,24 @@
     <string name="anuncio_de_nvdia">anuncio de NVDIA</string>
     <string name="anuncio">anuncio</string>
     <string name="fragment_de_inicio">fragment de inicio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imgen_del_monitor">imgen del monitor</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_eiusmod_tempor_incidunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquid_ex_ea_commodi_consequat">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</string>
+    <string name="s_280_00">S/ 280.00</string>
+    <string name="imagen_de_monitor_msi">imagen de monitor msi</string>
+    <string name="s_580_00">S/ 580.00</string>
+    <string name="imagen_de_monitor_aorus">imagen de monitor aorus</string>
+    <string name="gigabyte_m27q">Gigabyte M27Q</string>
+    <string name="s_350_00">S/ 350.00</string>
+    <string name="imagen_de_monitor_gigabyte">imagen de monitor gigabyte</string>
+    <string name="skullcandy_hesh_3">Skullcandy Hesh 3</string>
+    <string name="s_120_00">S/ 120.00</string>
+    <string name="imagen_de_audifono_skullcandy">imagen de audifono skullcandy</string>
+    <string name="bose_700uc">Bose 700Uc</string>
+    <string name="sony_wh1000xm4">Sony WH1000XM4</string>
+    <string name="sony_wh_1000xm4">Sony WH-1000XM4</string>
+    <string name="imagen_de_audifono_sony">imagen de audifono sony</string>
+    <string name="s_530_00">S/ 530.00</string>
+    <string name="imagen_de_audifono_bose">imagen de audifono bose</string>
 </resources>

@@ -7,93 +7,80 @@
     android:background="@color/background_app"
     tools:context=".MonitoresActivity">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="match_parent"
-        android:layout_height="212dp"
-        android:background="@color/background_app"
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/imagen_fondo_monitor" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/tvTitulo"
-        android:layout_width="174dp"
-        android:layout_height="67dp"
-        android:fontFamily="@font/telex"
-        android:gravity="center"
-        android:text="Monitores"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="35sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.067"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.035" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/tvProducto2"
-        android:layout_width="379dp"
-        android:layout_height="91dp"
-        android:layout_marginTop="106dp"
-        android:background="@drawable/buttons_shape"
-        android:fontFamily="@font/telex"
-        android:gravity="center"
-        android:text="Aorus AD27QD               600$"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tvProducto1"
-        app:layout_constraintVertical_bias="0.0" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="212dp"
+                android:background="@color/background_app"
+                app:srcCompat="@drawable/imagen_fondo_monitor" />
 
-    <TextView
-        android:id="@+id/tvProducto1"
-        android:layout_width="379dp"
-        android:layout_height="91dp"
-        android:layout_marginTop="104dp"
-        android:background="@drawable/buttons_shape"
-        android:fontFamily="@font/telex"
-        android:gravity="center"
-        android:text="Gigabyte M27Q             400$"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tvProducto3"
-        app:layout_constraintVertical_bias="0.0" />
+            <TextView
+                android:id="@+id/tvTitulo"
+                android:layout_width="174dp"
+                android:layout_height="67dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/telex"
+                android:gravity="center"
+                android:text="Monitores"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/tvProducto3"
-        android:layout_width="379dp"
-        android:layout_height="91dp"
-        android:layout_marginTop="86dp"
-        android:background="@drawable/buttons_shape"
-        android:fontFamily="@font/telex"
-        android:gravity="center"
-        android:text="MSI Optix G241             280$"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tvTitulo"
-        app:layout_constraintVertical_bias="0.0" />
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/btnBoton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gigabyte M27Q"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/btnBoton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aorus AD27QD"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/btnBoton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MSI Optix G241"
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/llContenerdorMonitor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
