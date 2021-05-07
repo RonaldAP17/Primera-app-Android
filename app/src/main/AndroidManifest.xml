@@ -9,25 +9,38 @@
         android:roundIcon="@mipmap/ic_logo_ap_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Onboarding">
-        <activity android:name=".SplashActivity"
-            android:theme="@style/Theme.Onboarding.NoActionBar">
+        <activity android:name=".CelularesActivity"
+            android:theme="@style/Theme.PaginaInicial"/>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SplashActivity2"
-            android:theme="@style/Theme.Onboarding.NoActionBar"/>
+        <activity
+            android:name=".SplashActivity2"
+            android:theme="@style/Theme.Splash" />
         <activity
             android:name=".PaginaInicioActivity"
             android:theme="@style/Theme.PaginaInicial" />
-        <activity android:name=".MainActivity"
-            android:theme="@style/Theme.Onboarding.NoActionBar"/>
-        <activity android:name=".AudifonosActivity"/>
-        <activity android:name=".MonitoresActivity"/>
-        <activity android:name=".ProcesadoresActivity"/>
-        <activity android:name=".TarjetasActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Onboarding.NoActionBar" />
+        <activity
+            android:name=".AudifonosActivity"
+            android:theme="@style/Theme.PaginaInicial" />
+        <activity
+            android:name=".MonitoresActivity"
+            android:theme="@style/Theme.PaginaInicial" />
+        <activity
+            android:name=".ProcesadoresActivity"
+            android:theme="@style/Theme.PaginaInicial" />
+        <activity
+            android:name=".TarjetasActivity"
+            android:theme="@style/Theme.PaginaInicial" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

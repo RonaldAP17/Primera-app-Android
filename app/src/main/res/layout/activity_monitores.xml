@@ -8,8 +8,8 @@
     tools:context=".MonitoresActivity">
 
     <ScrollView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -44,31 +44,47 @@
 
             <RadioGroup
                 android:id="@+id/radioGroup"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="381dp"
+                android:layout_height="318dp"
+                android:layout_marginStart="7dp"
                 android:layout_marginTop="8dp"
-                android:orientation="horizontal">
+                android:layout_marginEnd="15dp"
+                android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/btnBoton1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="379dp"
+                    android:layout_height="91dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/buttons_shape"
+                    android:fontFamily="@font/telex"
                     android:text="Gigabyte M27Q"
-                    android:textSize="15sp" />
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <RadioButton
                     android:id="@+id/btnBoton2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="379dp"
+                    android:layout_height="91dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/buttons_shape"
+                    android:fontFamily="@font/telex"
                     android:text="Aorus AD27QD"
-                    android:textSize="15sp" />
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <RadioButton
                     android:id="@+id/btnBoton3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="379dp"
+                    android:layout_height="91dp"
+                    android:background="@drawable/buttons_shape"
+                    android:fontFamily="@font/telex"
                     android:text="MSI Optix G241"
-                    android:textSize="15sp" />
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
             </RadioGroup>
 
             <LinearLayout
