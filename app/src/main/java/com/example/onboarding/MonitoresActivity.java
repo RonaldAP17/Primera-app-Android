@@ -44,19 +44,19 @@ public class MonitoresActivity extends AppCompatActivity implements View.OnClick
 
     private void mostrarBoton1() {
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.llContenerdorMonitor, new MonitorGigabyteFragment())
+                .replace(R.id.llContenerdorCelularXiomi, new MonitorGigabyteFragment())
                 .commit();
     }
 
     private void mostrarBoton2() {
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.llContenerdorMonitor, new MonitorAorusFragment())
+                .replace(R.id.llContenerdorCelularXiomi, new MonitorAorusFragment())
                 .commit();
     }
 
     private void mostrarBoton3() {
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.llContenerdorMonitor, new MonitorMSIFragment())
+                .replace(R.id.llContenerdorCelularXiomi, new MonitorMSIFragment())
                 .commit();
     }
 

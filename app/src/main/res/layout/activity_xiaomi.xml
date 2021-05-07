@@ -24,6 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="212dp"
                 android:background="@color/background_app"
+                android:contentDescription="@string/xiaomi"
                 app:srcCompat="@drawable/imagen_fondo_xiaomi" />
 
             <TextView
@@ -34,7 +35,7 @@
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/telex"
                 android:gravity="center"
-                android:text="Productos"
+                android:text="@string/productos"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="35sp"
@@ -50,40 +51,27 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:id="@+id/btnBoton1"
-                    android:layout_width="379dp"
-                    android:layout_height="91dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="@drawable/buttons_shape"
-                    android:fontFamily="@font/telex"
-                    android:text="Xiaomi Mi 11 Ultra"
-                    android:textSize="21sp"
-                    android:textStyle="bold" />
+                    android:id="@+id/btnCXBoton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xiaomi_mi_11_ultra" />
 
                 <RadioButton
-                    android:id="@+id/btnBoton2"
-                    android:layout_width="379dp"
-                    android:layout_height="91dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="@drawable/buttons_shape"
-                    android:fontFamily="@font/telex"
-                    android:text="Redmi Note 10 pro"
-                    android:textSize="21sp"
-                    android:textStyle="bold" />
+                    android:id="@+id/btnCXBoton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/redmi_note_10_pro" />
 
                 <RadioButton
-                    android:id="@+id/btnBoton3"
-                    android:layout_width="379dp"
-                    android:layout_height="91dp"
-                    android:background="@drawable/buttons_shape"
-                    android:fontFamily="@font/telex"
-                    android:text="Xiaomi Mi 9T"
-                    android:textSize="21sp"
-                    android:textStyle="bold" />
+                    android:id="@+id/btnCXBoton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xiaomi_mi_9t" />
+
             </RadioGroup>
 
             <LinearLayout
-                android:id="@+id/llContenerdorMonitor"
+                android:id="@+id/llContenerdorCelularXiomi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"

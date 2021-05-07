@@ -65,4 +65,14 @@
     <string name="imagen_de_un_procesador_intel">imagen de un procesador intel</string>
     <string name="s_400_00">S/ 400.00</string>
     <string name="ryzen_9_5950x">Ryzen 9 5950X</string>
+    <string name="productos">Productos</string>
+    <string name="xiaomi_mi_11_ultra">Xiaomi Mi 11 Ultra</string>
+    <string name="redmi_note_10_pro">Redmi Note 10 pro</string>
+    <string name="xiaomi_mi_9t">Xiaomi mi 9T</string>
+    <string name="xiaomi">xiaomi</string>
+    <string name="imagen_de_celular_xiaomi">imagen de celular xiaomi</string>
+    <string name="aorus_ad27qd">Aorus AD27QD</string>
+    <string name="msi_optix_g241">MSI Optix G241</string>
+    <string name="aplicaciones_productivas">Aplicaciones productivas</string>
+    <string name="celulares">Celulares</string>
 </resources>
