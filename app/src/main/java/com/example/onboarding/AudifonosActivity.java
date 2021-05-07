@@ -9,7 +9,6 @@ import android.widget.RadioButton;
 import com.example.onboarding.fragments_audifonos.AudifonoBoseFragment;
 import com.example.onboarding.fragments_audifonos.AudifonoSkullcaFragment;
 import com.example.onboarding.fragments_audifonos.AudifonoSonyFragment;
-import com.example.onboarding.fragments_monitores.MonitorGigabyteFragment;
 
 public class AudifonosActivity extends AppCompatActivity implements View.OnClickListener {
 

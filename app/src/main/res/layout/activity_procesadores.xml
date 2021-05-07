@@ -38,53 +38,32 @@
                 android:textSize="35sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/tvProducto1"
-                android:layout_width="379dp"
-                android:layout_height="91dp"
-                android:layout_marginStart="16dp"
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
                 android:layout_marginTop="8dp"
-                android:layout_marginEnd="16dp"
-                android:background="@drawable/buttons_shape"
-                android:fontFamily="@font/telex"
-                android:gravity="center"
-                android:text="Ryzen 5 5600x            580$"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:layout_marginEnd="15dp"
+                android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/tvProducto2"
-                android:layout_width="379dp"
-                android:layout_height="91dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="16dp"
-                android:background="@drawable/buttons_shape"
-                android:fontFamily="@font/telex"
-                android:gravity="center"
-                android:text="Intel i5 11600K          280$"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                <RadioButton
+                    android:id="@+id/btnPBoton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ryzen5_5600x" />
 
-            <TextView
-                android:id="@+id/tvProducto3"
-                android:layout_width="379dp"
-                android:layout_height="91dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="16dp"
-                android:background="@drawable/buttons_shape"
-                android:fontFamily="@font/telex"
-                android:gravity="center"
-                android:text="Ryzen 9 5950X          400$"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                <RadioButton
+                    android:id="@+id/btnPBoton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/intel_i5_11600k" />
+
+                <RadioButton
+                    android:id="@+id/btnPBoton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ryzen_9_5950x" />
+            </RadioGroup>
 
             <LinearLayout
                 android:id="@+id/llContenerdoProcesadores"
