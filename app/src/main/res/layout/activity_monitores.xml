@@ -26,6 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="212dp"
                 android:background="@color/background_app"
+                android:contentDescription="@string/imagen_de_monitores"
                 app:srcCompat="@drawable/imagen_fondo_monitor" />
 
             <TextView
@@ -36,7 +37,7 @@
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/telex"
                 android:gravity="center"
-                android:text="Monitores"
+                android:text="@string/monitores"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="35sp"
@@ -58,7 +59,7 @@
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/buttons_shape"
                     android:fontFamily="@font/telex"
-                    android:text="Gigabyte M27Q"
+                    android:text="@string/gigabyte_m27q"
                     android:textAlignment="center"
                     android:textSize="21sp"
                     android:textStyle="bold" />
@@ -70,7 +71,7 @@
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/buttons_shape"
                     android:fontFamily="@font/telex"
-                    android:text="Aorus AD27QD"
+                    android:text="@string/aorus_ad27qd"
                     android:textAlignment="center"
                     android:textSize="21sp"
                     android:textStyle="bold" />
@@ -81,14 +82,14 @@
                     android:layout_height="91dp"
                     android:background="@drawable/buttons_shape"
                     android:fontFamily="@font/telex"
-                    android:text="MSI Optix G241"
+                    android:text="@string/msi_optix_g241"
                     android:textAlignment="center"
                     android:textSize="21sp"
                     android:textStyle="bold" />
             </RadioGroup>
 
             <LinearLayout
-                android:id="@+id/llContenerdorMonitor"
+                android:id="@+id/llContenerdorCelularXiomi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"

@@ -51,18 +51,21 @@
                     android:id="@+id/btnTGBoton1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/buttons_shape"
                     android:text="@string/nvidia_gtx_1660" />
 
                 <RadioButton
                     android:id="@+id/btnTGBoton2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/buttons_shape"
                     android:text="@string/radeon_rx_6700_xt" />
 
                 <RadioButton
                     android:id="@+id/btnTGBoton3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/buttons_shape"
                     android:text="@string/nvidia_rtx_3080" />
             </RadioGroup>
 

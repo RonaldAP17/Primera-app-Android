@@ -13,7 +13,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="28dp"
         android:fontFamily="@font/telex"
-        android:text="Marcas"
+        android:text="@string/marcas"
         android:textColor="#151515"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -24,60 +24,48 @@
         android:id="@+id/imgbtnMonitores"
         android:layout_width="179dp"
         android:layout_height="174dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/buttons_shape"
         android:contentDescription="@string/imagen_de_monitores"
         android:src="@drawable/ic_perifericos_1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <ImageButton
         android:id="@+id/imgbtnAudifonos"
         android:layout_width="179dp"
         android:layout_height="174dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/buttons_shape"
         android:contentDescription="@string/imagen_de_audifonos"
         android:src="@drawable/ic_perifericos_2"
-        app:layout_constraintBottom_toBottomOf="@+id/imgbtnMonitores"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toEndOf="@+id/imgbtnMonitores"
-        app:layout_constraintTop_toTopOf="@+id/imgbtnMonitores"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="@+id/imgbtnMonitores" />
 
     <ImageButton
         android:id="@+id/imgbtnTarjetas"
         android:layout_width="179dp"
         android:layout_height="174dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/buttons_shape"
         android:contentDescription="@string/imagen_de_tarjetas_graficas"
         android:src="@drawable/foto_logo_apple"
-        app:layout_constraintBottom_toBottomOf="@+id/imgbtnXiaomi"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toEndOf="@+id/imgbtnXiaomi"
-        app:layout_constraintTop_toTopOf="@+id/imgbtnXiaomi"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="@+id/imgbtnXiaomi" />
 
     <ImageButton
         android:id="@+id/imgbtnXiaomi"
-        android:onClick="verPaginaXiaomi"
         android:layout_width="179dp"
         android:layout_height="174dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/buttons_shape"
         android:contentDescription="@string/imagen_de_procesadores"
+        android:onClick="verPaginaXiaomi"
         android:src="@drawable/foto_logo_xiaomi"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView2"
@@ -86,7 +74,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="12dp"
         android:fontFamily="@font/telex"
-        android:text="Aplicaciones productivas"
+        android:text="@string/aplicaciones_productivas"
         android:textColor="#151515"
         android:textSize="30sp"
         android:textStyle="bold"

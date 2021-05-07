@@ -123,18 +123,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.254" />
+
     <Button
         android:id="@+id/btnCelulares"
         android:layout_width="182dp"
         android:layout_height="56dp"
+        android:layout_marginTop="564dp"
         android:backgroundTint="@color/boton_amarillo"
-        android:text="Celulares"
         android:onClick="verPaginaCelulares"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/celulares"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.994" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
