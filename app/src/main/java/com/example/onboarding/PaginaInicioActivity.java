@@ -16,8 +16,7 @@ import me.relex.circleindicator.CircleIndicator;
 
 public class PaginaInicioActivity extends AppCompatActivity {
 
-    ImageButton mImgBtnProcesadores, mImgBtnTarjetas, mImgBtnMonitores, mImgBtnAudifonos;
-    Button mBtnCelulares;
+    ImageButton mImgBtnProcesadores, mImgBtnTarjetas, mImgBtnMonitores, mImgBtnAudifonos, mImgBtnCelulares, mImgBtnInicio;
     public ViewPager viewPager;
     Adapter_pagina_inicio_walkthrough adapter_pagina_inicio_walkthrough;
 
@@ -30,7 +29,8 @@ public class PaginaInicioActivity extends AppCompatActivity {
         mImgBtnTarjetas = findViewById(R.id.imgbtnTarjetas);
         mImgBtnMonitores = findViewById(R.id.imgbtnMonitores);
         mImgBtnAudifonos = findViewById(R.id.imgbtnAudifonos);
-        mBtnCelulares = findViewById(R.id.btnCelulares);
+        mImgBtnCelulares = findViewById(R.id.imgbtnCelulares);
+        mImgBtnInicio = findViewById(R.id.imgBtnInicio);
 
         viewPager = findViewById(R.id.viewPager);
 
@@ -43,8 +43,14 @@ public class PaginaInicioActivity extends AppCompatActivity {
 
         adapter_pagina_inicio_walkthrough.registerDataSetObserver(indicator.getDataSetObserver());
 
-        Intent intent1 = new Intent(this, ProcesadoresActivity.class);
+        Intent intent1 = new Intent(this,XiaomiActivity.class);
+        Intent intent2 = new Intent(this,AppleActivity.class);
+        Intent intent3 = new Intent(this,NotionActivity.class);
+        Intent intent4 = new Intent(this,ToDoActivity.class);
+    }
 
+    public void verPaginaInicio(View view) {
+        startActivity(new Intent(this, PaginaInicioActivity.class));
     }
 
     public void verPaginaProcesador(View view) {
