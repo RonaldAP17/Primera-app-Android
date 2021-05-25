@@ -76,4 +76,8 @@ public class CelularesActivity extends AppCompatActivity {
     public void verPaginaCelulares(View view) {
         startActivity(new Intent(this, CelularesActivity.class));
     }
+
+    public void verPaginaDatos(View view) {
+        startActivity(new Intent(this, DatosActivity.class));
+    }
 }

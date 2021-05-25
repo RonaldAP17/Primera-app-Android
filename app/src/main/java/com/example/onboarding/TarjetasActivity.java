@@ -61,12 +61,4 @@ public class TarjetasActivity extends AppCompatActivity implements View.OnClickL
                 .replace(R.id.llContenedorTarjetas, new TarjetaNvidia3080Fragment())
                 .commit();
     }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_inicio_de_pagina, menu);
-        return true;
-    }
-
 }

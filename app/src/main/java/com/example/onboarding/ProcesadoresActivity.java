@@ -62,13 +62,4 @@ public class ProcesadoresActivity extends AppCompatActivity implements View.OnCl
                 .replace(R.id.llContenerdoProcesadores, new ProcesadorR9Fragment())
                 .commit();
     }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_inicio_de_pagina, menu);
-        return true;
-    }
-
-
 }

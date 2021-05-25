@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.onboarding">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_logo_ap"
@@ -9,12 +11,28 @@
         android:roundIcon="@mipmap/ic_logo_ap_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Onboarding">
-        <activity android:name=".ToDoActivity"
-            android:theme="@style/Theme.PaginaInicial"/>
-        <activity android:name=".NotionActivity"
-            android:theme="@style/Theme.PaginaInicial"/>
-        <activity android:name=".AppleActivity"
-            android:theme="@style/Theme.PaginaInicial"/>
+        <activity
+            android:name=".InfoServicioActivity"
+            android:theme="@style/Theme.PaginaInicial"
+            />
+        <activity
+            android:name=".WebPropiaActivity"
+            android:theme="@style/Theme.PaginaInicial" />
+        <activity
+            android:name=".WebGratuitaActivity"
+            android:theme="@style/Theme.PaginaInicial" />
+        <activity
+            android:name=".DatosActivity"
+            android:theme="@style/Theme.PaginaInicial" />
+        <activity
+            android:name=".ToDoActivity"
+            android:theme="@style/Theme.PaginaInicial" />
+        <activity
+            android:name=".NotionActivity"
+            android:theme="@style/Theme.PaginaInicial" />
+        <activity
+            android:name=".AppleActivity"
+            android:theme="@style/Theme.PaginaInicial" />
         <activity
             android:name=".XiaomiActivity"
             android:theme="@style/Theme.PaginaInicial" />

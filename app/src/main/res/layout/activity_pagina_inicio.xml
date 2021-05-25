@@ -19,7 +19,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="831dp">
+                android:layout_height="match_parent">
 
                 <androidx.viewpager.widget.ViewPager
                     android:id="@+id/viewPager"
@@ -36,6 +36,8 @@
                     android:id="@+id/indicator"
                     android:layout_width="100dp"
                     android:layout_height="25dp"
+                    android:layout_marginStart="315dp"
+                    android:layout_marginBottom="100dp"
                     android:paddingBottom="15dp"
                     app:ci_drawable="@drawable/ic_brightness_1_black_24dp"
                     app:ci_drawable_unselected="@drawable/ic_brightness_1_grey_24dp"
@@ -92,7 +94,7 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="36dp"
+                    android:layout_marginStart="16dp"
                     android:layout_marginTop="16dp"
                     android:fontFamily="@font/telex"
                     android:text="@string/perifericos"
@@ -133,41 +135,60 @@
                     android:layout_width="match_parent"
                     android:layout_height="94dp"
                     android:layout_marginTop="21dp"
-                    android:layout_marginBottom="32dp"
                     android:background="@drawable/buttons_shape"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgbtnMonitores" />
-
-
+                    app:layout_constraintTop_toBottomOf="@+id/imgbtnMonitores"
+                    app:layout_constraintVertical_bias="1.0" />
 
                 <ImageButton
                     android:id="@+id/imgBtnInicio"
-                    android:onClick="verPaginaInicio"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:background="@drawable/buttons_shape"
-                    android:backgroundTint="@color/boton_amarillo"
-                    android:layout_marginStart="120dp"
-                    android:layout_marginTop="32dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgbtnMonitores"
-                    app:srcCompat="@drawable/ic_baseline_computer_24" />
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="11dp"
+                    android:background="@color/white"
+                    android:onClick="verPaginaInicio"
+                    app:layout_constraintBottom_toBottomOf="@+id/view"
+                    app:layout_constraintEnd_toEndOf="@+id/view"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/view"
+                    app:layout_constraintTop_toTopOf="@+id/view"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/ordenador_portatil" />
+
+                <ImageButton
+                    android:id="@+id/imgbtnCelulares2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="11dp"
+                    android:background="@color/white"
+                    android:onClick="verPaginaCelulares"
+                    app:layout_constraintBottom_toBottomOf="@+id/view"
+                    app:layout_constraintEnd_toEndOf="@+id/view"
+                    app:layout_constraintHorizontal_bias="0.504"
+                    app:layout_constraintStart_toStartOf="@+id/view"
+                    app:layout_constraintTop_toTopOf="@+id/view"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/telefono_inteligente" />
 
                 <ImageButton
                     android:id="@+id/imgbtnCelulares"
-                    android:onClick="verPaginaCelulares"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:background="@drawable/buttons_shape"
-                    android:backgroundTint="@color/boton_amarillo"
-                    android:layout_marginTop="32dp"
-                    android:layout_marginEnd="120dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgbtnAudifonos"
-                    app:srcCompat="@drawable/ic_baseline_phone_android_24" />
+                    android:layout_marginTop="11dp"
+                    android:layout_marginEnd="70dp"
+                    android:background="@color/white"
+                    android:onClick="verPaginaDatos"
+                    app:layout_constraintBottom_toBottomOf="@+id/view"
+                    app:layout_constraintEnd_toEndOf="@+id/view"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/view"
+                    app:layout_constraintTop_toTopOf="@+id/view"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/usuario" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>

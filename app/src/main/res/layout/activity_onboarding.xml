@@ -17,17 +17,18 @@
         android:background="@color/background_slide"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-
     <me.relex.circleindicator.CircleIndicator
         android:id="@+id/indicator"
-        android:layout_width="415dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/background_slide"
         android:paddingBottom="15dp"
+        android:background="@color/background_slide"
+        android:layout_marginTop="60dp"
         app:ci_drawable="@drawable/ic_brightness_1_black_24dp"
         app:ci_drawable_unselected="@drawable/ic_brightness_1_grey_24dp"
         app:ci_height="10dp"
@@ -48,6 +49,7 @@
         android:text="@string/comenzar"
         android:fontFamily="@font/hammersmith_one"
         android:textStyle="bold"
+        android:layout_marginBottom="140dp"
         android:textColor="@color/black"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -33,5 +33,10 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+    <style name="btnNavegacion">
+        <item name="background">@color/background_app</item>
+        <item name="itemIconTint">@color/boton_amarillo</item>
+        <item name="itemTextColor">@color/boton_amarillo</item>
+    </style>
 
 </resources>

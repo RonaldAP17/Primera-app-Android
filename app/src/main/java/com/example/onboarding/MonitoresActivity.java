@@ -59,11 +59,4 @@ public class MonitoresActivity extends AppCompatActivity implements View.OnClick
                 .replace(R.id.llContenerdorMonitor, new MonitorMSIFragment())
                 .commit();
     }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_inicio_de_pagina, menu);
-        return true;
-    }
 }
