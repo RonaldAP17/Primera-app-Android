@@ -23,7 +23,7 @@ import java.util.HashMap;
 
 public class WebPropiaActivity extends AppCompatActivity {
 
-    ArrayList arrayList = new ArrayList<HashMap<String,String>>();
+    ArrayList arrayList1 = new ArrayList<HashMap<String,String>>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,10 +34,10 @@ public class WebPropiaActivity extends AppCompatActivity {
 
     private void leerDatos() {
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="http://pagina.great-site.net/hardward.php?i=1";
+        String url ="https://pagina.great-site.net/hardward.php?i=1";
 
 // Request a string response from the provided URL.
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
+        StringRequest stringRequest2 = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
@@ -53,24 +53,24 @@ public class WebPropiaActivity extends AppCompatActivity {
         });
 
 // Add the request to the RequestQueue.
-        queue.add(stringRequest);
+        queue.add(stringRequest2);
     }
 
     private void llenarLista(String response) {
         try {
-            JSONArray jsonArray = new JSONArray(response);
+            JSONArray jsonArray2 = new JSONArray(response);
 
-            for(int i = 0 ; i< jsonArray.length(); i++){
-                String nombre = jsonArray.getJSONObject(i).getString("nombre");
-                String marca = jsonArray.getJSONObject(i).getString("marca");
-                String precio = jsonArray.getJSONObject(i).getString("precio");
-                String stock = jsonArray.getJSONObject(i).getString("stock");
+            for(int i = 0 ; i< jsonArray2.length(); i++){
+                String nombres = jsonArray2.getJSONObject(i).getString("nombre");
+                String marca = jsonArray2.getJSONObject(i).getString("marca");
+                String precio = jsonArray2.getJSONObject(i).getString("precio");
+                String stock = jsonArray2.getJSONObject(i).getString("stock");
                 HashMap<String,String> map = new HashMap<>();
-                map.put("nombre",nombre);
+                map.put("nombre",nombres);
                 map.put("marca",marca);
                 map.put("precio",precio);
                 map.put("stock",stock);
-                arrayList.add(map);
+                arrayList1.add(map);
             }
             ListView mlvProductos = findViewById(R.id.lvProductos);
 
@@ -79,12 +79,11 @@ public class WebPropiaActivity extends AppCompatActivity {
 
             ListAdapter listAdapter = new SimpleAdapter(
                     this,
-                    arrayList,
+                    arrayList1,
                     R.layout.item_dato_web_propia,
                     datos,
                     ids
             );
-
             mlvProductos.setAdapter(listAdapter);
 
 

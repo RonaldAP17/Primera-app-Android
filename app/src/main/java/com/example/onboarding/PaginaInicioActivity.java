@@ -76,4 +76,8 @@ public class PaginaInicioActivity extends AppCompatActivity {
     public void verPaginaDatos(View view) {
         startActivity(new Intent(this, DatosActivity.class));
     }
+
+    public void verPaginaMiBolsillo(View view) {
+        startActivity(new Intent(this, MiBolsilloActivity.class));
+    }
 }

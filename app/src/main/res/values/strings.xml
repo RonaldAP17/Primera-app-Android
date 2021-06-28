@@ -81,4 +81,9 @@
     <string name="iphone_12_pro_max">Iphone 12 Pro Max</string>
     <string name="iphone_x">Iphone X</string>
     <string name="iphone">Iphone</string>
+    <string name="title_activity_mi_bolsillo">MiBolsilloActivity</string>
+    <string name="tab_reporte">Reporte</string>
+    <string name="tab_registro">Registro</string>
+    <string name="tab_ingresos">Ingresos</string>
+    <string name="tab_gastos">Gastos</string>
 </resources>

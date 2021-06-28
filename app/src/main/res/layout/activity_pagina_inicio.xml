@@ -19,7 +19,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="1032dp">
 
                 <androidx.viewpager.widget.ViewPager
                     android:id="@+id/viewPager"
@@ -129,6 +129,34 @@
                     app:layout_constraintBottom_toBottomOf="@+id/imgbtnMonitores"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/imgbtnMonitores" />
+
+                <ImageButton
+                    android:id="@+id/imgbtnMiBolsillo"
+                    android:layout_width="179dp"
+                    android:layout_height="174dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/buttons_shape"
+                    android:contentDescription="@string/imagen_de_monitores"
+                    android:onClick="verPaginaMiBolsillo"
+                    android:src="@drawable/bolsillo"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/telex"
+                    android:text="Opciones adicionales"
+                    android:textColor="#151515"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.134"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgbtnMonitores" />
 
                 <View
                     android:id="@+id/view"

@@ -13,4 +13,5 @@
     <color name="background_app">#f2f2f4</color>
     <color name="boton_amarillo">#ffd146</color>
     <color name="boton_gris">#9d9d9d</color>
+    <color name="rojo">#E60D0D</color>
 </resources>

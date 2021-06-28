@@ -12,9 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Onboarding">
         <activity
+            android:name=".MiBolsilloActivity"
+            android:theme="@style/Theme.PaginaInicial" />
+        <activity
             android:name=".InfoServicioActivity"
-            android:theme="@style/Theme.PaginaInicial"
-            />
+            android:theme="@style/Theme.PaginaInicial" />
         <activity
             android:name=".WebPropiaActivity"
             android:theme="@style/Theme.PaginaInicial" />

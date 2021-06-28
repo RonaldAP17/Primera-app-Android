@@ -27,16 +27,35 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="windowActionBar">false</item>
         <!-- Customize your theme here. -->
     </style>
+
     <style name="Theme.Onboarding.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+
     <style name="btnNavegacion">
         <item name="background">@color/background_app</item>
         <item name="itemIconTint">@color/boton_amarillo</item>
         <item name="itemTextColor">@color/boton_amarillo</item>
     </style>
+
+    <style name="tvIngreso">
+        <item name="itemIconTint">@color/boton_amarillo</item>
+        <item name="itemTextColor">@color/boton_amarillo</item>
+    </style>
+
+    <style name="tvGasto">
+        <item name="itemIconTint">@color/rojo</item>
+        <item name="itemTextColor">@color/rojo</item>
+        <item name="itemTextAppearance">@color/rojo</item>
+    </style>
+
+    <style name="Theme.Onboarding.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Onboarding.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 
 </resources>
